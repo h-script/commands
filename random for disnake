@@ -1,0 +1,14 @@
+@bot.command(name='COMMAND NAME')
+async def COMMAND NAME(ctx):
+    rand3 = ["name"]
+    rand2 = ["name", "name"]
+    rand1 = ["name", "name", "name"]
+
+    r = (random.randint(1,1000))
+    if r <= 500:
+        randc = (random.choice(rand2))
+    elif r >= 800:
+        randc = (random.choice(rand1))
+    elif r <= 950:
+        print(random.choice(rand3))
+    await ctx.send(randc)
