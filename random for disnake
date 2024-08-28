@@ -1,3 +1,11 @@
+PYTHON 
+
+import disnake
+import disnake.ext import command
+
+bot = commands.Bot(command_prefix='.', help_command=None, intents=disnake.Intents.all(), test_guilds=[your disc conf id])
+
+
 @bot.command(name='COMMAND NAME')
 async def COMMAND NAME(ctx):
     rand3 = ["name"]
